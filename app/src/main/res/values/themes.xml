@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 主界面主题：Slate 冷灰浅色，无 ActionBar。Compose 接管后颜色由 VirtualCallTheme 动态设置。 -->
+    <style name="Theme.VirtualCall" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/splash_bg</item>
+        <item name="android:navigationBarColor">@color/splash_bg</item>
+        <item name="android:windowBackground">@color/splash_bg</item>
+    </style>
+
+    <!-- 来电全屏主题：透明系统栏，锁屏可见，点亮屏幕 -->
+    <style name="Theme.VirtualCall.Fullscreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

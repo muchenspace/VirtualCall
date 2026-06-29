@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <!-- 应用启动前的窗口底色，与 Compose 主题 bgPrimary (slate-50) 对齐 -->
+    <color name="splash_bg">#F8FAFC</color>
+</resources>

@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+app/build/
+# Kotlin
+.kotlin/
+
+#docs
+docs/
+
+# IDE: IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+captures/
+
+# Local config（含 SDK 路径，不应入库）
+local.properties
+
+# 运行时日志 / dump
+*-logcat.txt
+*-focus-log.txt
+*-dump.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# APK / 打包产物
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keystore（签名密钥，严禁入库）
+*.jks
+*.keystore
